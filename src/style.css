@@ -1,0 +1,105 @@
+body{
+    background: url(images/bg-pattern-bottom-desktop.svg) center center no-repeat ;
+    background-size: cover;
+    
+}
+main {
+    padding: 8%;
+   width: 90%;
+   height:50%;
+    margin: 0 auto;   
+} 
+
+main .um-e-dois{    
+        max-width: 2000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border: 3px solid coral;
+        display: grid;
+        grid-template-columns:30% 50% ;
+       
+}
+
+.section-1 .description {    
+    border: 1px solid black;
+        
+}
+
+.section-1 .description h1{
+    color: purple;
+    font-size: 0.9rem;
+}
+
+.section-1 .description p{
+    font-size: 0.25rem;
+    color: white;
+    padding: 20px 0;
+    color: purple;
+}
+
+
+
+.section-2{    
+    border: 1px solid black;            
+}
+
+.section-2 .stars{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    gap: 20px;    
+}
+
+.section-2 .stars:nth-child(2){
+    margin-left: 1rem;
+}
+.section-2 .stars:nth-child(3){
+    margin-left: 3rem;
+}
+.section-2 h3{
+    font-size: 0.4rem;
+}
+
+.section-3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;      
+} 
+
+.section-3 .review {
+    font-size: 0.3rem;
+    background-color: purple;
+    max-width: 400px;
+    padding: 20px 10px;    
+}
+.section-3 .review p{
+    color: white;    
+}
+
+.section-3 .review .avatar{
+    display: flex;
+    align-items: center;
+}
+.section-3 .review .avatar h5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    color: white;    
+}
+.section-3 .review .avatar span{
+    
+    color: rgb(255, 137, 255);    
+}
+.section-3 .review .avatar img{
+    border-radius: 50px;
+    max-width: 60px;
+}
+
+
+
+
